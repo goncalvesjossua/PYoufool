@@ -26,9 +26,9 @@ def calcular_imc():
 
 tocar_musica = True
 
-def tocar_audio_loop(caminho):
+def tocar_audio_loop(colocar seu diretorio):
     while tocar_musica:
-        playsound(caminho)
+        playsound(colocar seu diretorio)
 
 def atualizar_video():
     ret, frame = cap.read()
@@ -70,7 +70,7 @@ janela.resizable(False, False)
 
 
 #tentando colocar a imagem de fundo
-caminho_video = "c:/Users/Noll de Oliveira/Desktop/DAIANE IMC/video.mp4"  # Coloque o vídeo na mesma pasta do script (ou use caminho completo)
+caminho_video = "your video directory"
 
 label_video = tk.Label(janela)
 label_video.pack(pady=15)
